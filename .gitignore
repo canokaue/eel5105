@@ -1,19 +1,44 @@
-# Build and Release Folders
-bin/
-bin-debug/
-bin-release/
-[Oo]bj/ # FlashDevelop obj
-[Bb]in/ # FlashDevelop bin
+# gitignore para lidar com o Altera Quartus II 
 
-# Other files and folders
-.settings/
+# arquivos que não queremos ignorar 
+# *.vhd 
+# *.v
+# *.sdc
 
-# Executables
-*.swf
-*.air
-*.ipa
-*.apk
+# arquivos ignorados do Quartus II 
+PLLJ_PLLSPE_INFO.
+*.tcl
+*~
+*_generation_script*
+*_inst.vhd
+*.bak
+*.cmp
+*.done
+*.eqn
+*.hex
+*.html
+*.jdi
+*.mif
+*.pin
+*.pof
+*.ptf
+*.qar
+*.qarlog
+*.qws
+*.rpt
+*.smsg
+*.sof
+*.sopc_builder
+*.summary
 
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+
+
+# ignorar folders que o Quartus II constuma gerar
+*_sim
+simulation
+testbench
+timing
+db
+incremental_db
+greybox_tmp
+
