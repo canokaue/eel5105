@@ -1,9 +1,11 @@
 # gitignore para lidar com o Altera Quartus II 
 
+
 # arquivos que não queremos ignorar 
 # *.vhd 
 # *.v
 # *.sdc
+
 
 # arquivos ignorados do Quartus II 
 PLLJ_PLLSPE_INFO.
@@ -11,26 +13,24 @@ PLLJ_PLLSPE_INFO.
 *~
 *_generation_script*
 *_inst.vhd
+*.eqn
+*.hex
+*.jdi
 *.bak
 *.cmp
 *.done
-*.eqn
-*.hex
-*.html
-*.jdi
 *.mif
-*.pin
-*.pof
-*.ptf
 *.qar
 *.qarlog
 *.qws
+*.pin
+*.pof
+*.ptf
 *.rpt
 *.smsg
 *.sof
 *.sopc_builder
 *.summary
-
 
 
 # ignorar folders que o Quartus II constuma gerar
@@ -41,4 +41,3 @@ timing
 db
 incremental_db
 greybox_tmp
-
